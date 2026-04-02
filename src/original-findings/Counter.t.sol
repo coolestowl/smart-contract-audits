@@ -11,9 +11,6 @@ contract CounterTest is Test {
     }
 
     function testHello() public {
-        console.log(
-            "balance:",
-            address(0x2804ADA1C219E50898e75B2Bd052030580f4fbAC).balance
-        );
+        console.log("balance:", address(0x2804ADA1C219E50898e75B2Bd052030580f4fbAC).balance);
     }
 }
