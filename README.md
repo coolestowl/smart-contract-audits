@@ -1,5 +1,11 @@
 # Smart Contract Audits
 
+[![Github Actions](https://github.com/coolestowl/smart-contract-audits/actions/workflows/test.yml/badge.svg)](https://github.com/coolestowl/smart-contract-audits/actions)
+![Foundry](https://img.shields.io/badge/Built%20with-Foundry-FFDB1C?logo=ethereum)
+![Solidity](https://img.shields.io/badge/Solidity-%5E0.8.0-363636?logo=solidity)
+![Last Commit](https://img.shields.io/github/last-commit/coolestowl/smart-contract-audits)
+[![Blog](https://img.shields.io/badge/Blog-coolestowl.me-blue?logo=hugo)](https://coolestowl.me)
+
 智能合约安全审计与漏洞复现集合，基于 [Foundry](https://book.getfoundry.sh/) 框架构建。
 
 ## Structure
