@@ -17,6 +17,7 @@ src/
 ├── original-findings/   # Original vulnerability analyses & PoCs
 │   └── CZCI/            # CZCI presale logic flaw
 └── reproductions/       # Reproductions of known vulnerabilities
+    └── 260327-EST/      # EST token whitelist bypass & price manipulation
 ```
 
 ## Findings
@@ -29,7 +30,9 @@ src/
 
 ### Reproductions
 
-_TBD_
+| # | Name | Chain | Category | Link |
+|---|------|-------|----------|------|
+| 1 | EST Token Exploit | BSC | Whitelist Bypass + Price Manipulation | [Detail](./src/reproductions/260327-EST/) |
 
 ## Quick Start
 

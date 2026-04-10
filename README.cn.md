@@ -17,6 +17,7 @@ src/
 ├── original-findings/   # 原创发现的漏洞分析与 PoC
 │   └── CZCI/            # CZCI 预售逻辑缺陷
 └── reproductions/       # 已知漏洞的复现
+    └── 260327-EST/      # EST Token 白名单绕过与价格操纵
 ```
 
 ## Findings
@@ -29,7 +30,9 @@ src/
 
 ### Reproductions
 
-_TBD_
+| # | Name | Chain | Category | Link |
+|---|------|-------|----------|------|
+| 1 | EST Token Exploit | BSC | Whitelist Bypass + Price Manipulation | [Detail](./src/reproductions/260327-EST/) |
 
 ## Quick Start
 
