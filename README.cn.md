@@ -24,15 +24,15 @@ src/
 
 ### Original Findings
 
-| # | Name | Chain | Category | Link |
-|---|------|-------|----------|------|
-| 1 | CZCI Token Presale Exploit | BSC | Presale Logic Flaw | [Detail](./src/original-findings/CZCI/) |
+| # | Name | Chain | Category | Impact | Link |
+|---|------|-------|----------|--------|------|
+| 1 | CZCI Token Presale Exploit | BSC | Presale Logic Flaw | ![Loss](https://img.shields.io/badge/loss-61.8_BNB-red) | [Detail](./src/original-findings/CZCI/) |
 
 ### Reproductions
 
-| # | Name | Chain | Category | Link |
-|---|------|-------|----------|------|
-| 1 | EST Token Exploit | BSC | Whitelist Bypass + Price Manipulation | [Detail](./src/reproductions/260327-EST/) |
+| # | Name | Chain | Category | Impact | Link |
+|---|------|-------|----------|--------|------|
+| 1 | EST Token Exploit | BSC | Whitelist Bypass + Price Manipulation | ![Loss](https://img.shields.io/badge/loss-150.2_WBNB-red) | [Detail](./src/reproductions/260327-EST/) |
 
 ## Quick Start
 
